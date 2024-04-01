@@ -9,6 +9,6 @@ iframe.style = "position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
 document.body.appendChild(iframe);
 
 setTimeout(function(){
-  let link = "https://education" + letters[Math.floor(Math.random() * 13) - 1] + numbers + domains[0];
+  let link = "https://education" + letters[Math.floor(Math.random() * 13) - 1] + numbers + domains[100];
   iframe.src = link;
 })
